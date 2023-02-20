@@ -30,7 +30,7 @@ export function Header() {
           <label>
             <MapPin size={24} color="#E45858" />
             <select name="cityName" id="cityName" required>
-              <option disabled selected value="">
+              <option value="" defaultChecked>
                 Selecione uma cidade
               </option>
               <option value="rj">Rio de Janeiro</option>
