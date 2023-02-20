@@ -62,7 +62,7 @@ export const Form = styled.form`
   padding: 2.5rem;
   border-radius: 10px;
   background-color: ${(props) => props.theme.white};
-  box-shadow: inset 0px 0px 13px -10px #000000;
+  outline: 1px solid #eaeaea;
 
   > label {
     display: flex;
